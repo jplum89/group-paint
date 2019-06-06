@@ -1,3 +1,4 @@
+
 body {
     background-image: url("./grain.jpg");
     background-size: 100%;
@@ -34,4 +35,18 @@ h1 {
     height: 150px;
     background-image: url("./jonahblue.jpg");
     background-size: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+
 }
