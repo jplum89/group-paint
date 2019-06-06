@@ -1,3 +1,42 @@
+
+body {
+    background-image: url("./grain.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.paints {
+    border-radius: 80px;
+}
+
+#red {
+    width: 150px;
+    height: 150px;
+    background-image: url("./jonahred.png");
+    background-size: 100%;
+    border: 2px;
+}
+
+#green {
+    width: 150px;
+    height: 150px;
+    background-image: url("./jonahgreen.jpg");
+    background-size: 100%;
+}
+
+#blue {
+    width: 150px;
+    height: 150px;
+    background-image: url("./jonahblue.jpg");
+    background-size: 100%;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: 200px 200px 200px;
@@ -9,4 +48,5 @@
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
+
 }
